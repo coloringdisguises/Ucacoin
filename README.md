@@ -42,8 +42,8 @@ Masternode Governance:
 # Debian/Ubuntu Linux Daemon Build Instructions
 
 ```
-git clone https://github.com/ucacoin-coin/Reex.git
-cd Reex
+git clone https://github.com/ucacoin/Ucacoin.git
+cd Ucacoin
 ./autogen.sh
 ./configure --disable-tests
 make -j2 (2 is must be changed for number os Cpus that have VPS)
